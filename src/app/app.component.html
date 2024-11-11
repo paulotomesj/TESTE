@@ -1,0 +1,65 @@
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container d-flex justify-content-around">
+    <!-- LOGO -->
+    <nav class="navbar navbar-expand-lg navbar-light py-2 mb-1" style="margin-left: 80px;">
+      <div class="row">
+        <a class="pl-3" style="cursor: pointer;">
+          <img src="assets\img\logos\logoEnc.png" width="160.717" height="60" title="Voltar para o site" />
+        </a>
+      </div>
+    </nav>
+    <!-- MENU DE LINKS -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div>
+    </div>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="margin-left: 200px">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" routerLink="/home">Inicio</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+            aria-expanded="false">Empresa</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="http://www.saojoaoencomendas.com.br/apresentacao/">Apresentação</a></li>
+            <li><a class="dropdown-item" href="http://www.saojoaoencomendas.com.br/diferenciais/">Diferenciais</a></li>
+            <li><a class="dropdown-item" href="http://www.saojoaoencomendas.com.br/frota/">Frota</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" routerLink="/rastrearEncomenda">Rastrear Encomenda</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" routerLink="/CidadesAtendidas">Cidades Atendidas</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="http://www.saojoaoencomendas.com.br/contato-sac/">Contato
+            SAC</a>
+        </li>
+      </ul>
+      <!-- IDENTIFICAÇÃO -->
+      <!-- <ng-template [ngIf]="auth.logado">
+        <ul class="nav-item dropdown btn btn-outline-success">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" >Sair</a></li>
+          </ul>
+        </ul>
+      </ng-template> -->
+      <!-- <ng-template [ngIf]="entrar()">
+        <button class="nav-item btn btn-outline-success">
+          <a class="nav-link " routerLink="/">
+            Entrar
+          </a>
+        </button>
+      </ng-template> -->
+      <div>
+      </div>
+    </div>
+  </div>
+</nav>
